@@ -1,0 +1,17 @@
+# All dependencies are installed automatically in Cell 1 of the notebook.
+# This file is for reference only.
+#
+# The notebook installs:
+#   numpy
+#   matplotlib
+#   seaborn
+#   pandas
+#   langchain-community        (LangChain with HuggingFacePipeline support)
+#   sentence-transformers      (required by langchain-community)
+#
+# TinyLlama 1.1B is loaded automatically via HuggingFace:
+#   model: "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+#   downloaded on first run (~600MB, cached by Colab)
+#
+# No API keys required. Runs on Colab CPU or T4 GPU.
+# T4 GPU speeds up TinyLlama loading significantly.
